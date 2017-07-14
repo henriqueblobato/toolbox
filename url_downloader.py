@@ -3,13 +3,10 @@ Created on 13 de jul de 2017
 
 @author: henrique
 
-Put a URL with images's url to download on a folder called 'pictures'
-
 '''
 
 from urllib.request import urlretrieve, urlopen
 
-# Put here the links with all the images to download, take this example on image-net.com
 URL_LIST = ['http://www.image-net.org/api/text/imagenet.synset.geturls?wnid=n03800933',
             '']
 
