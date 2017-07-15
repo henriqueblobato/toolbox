@@ -4,7 +4,7 @@ Created on 14 de jul de 2017
 @author: henrique
 
 Input: Video file
-Output: JPG image in folder called 'pictures'
+Output: JPG images in folder called 'pictures'
 Parameters:
     GET_EVERY_N_FRAMES: Save image every n reads on the video
                         Change to 1 if want all the video
