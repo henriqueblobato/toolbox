@@ -11,7 +11,9 @@ Created on 15 de jul de 2017
 '''
 from random import shuffle
 
-message = 'Todos nós desejamos ajudar uns aos outros. Os seres humanos são assim. Desejamos viver para a felicidade do próximo - não para o seu infortúnio. Por que havemos de odiar ou desprezar uns aos outros? Neste mundo há espaço para todos.'
+message = 'Todos nós desejamos ajudar uns aos outros. Os seres humanos são assim. Desejamos
+            viver para a felicidade do próximo - não para o seu infortúnio. Por que havemos de
+            odiar ou desprezar uns aos outros? Neste mundo há espaço para todos.'
 
 def convert(text):
     message_new = ''
