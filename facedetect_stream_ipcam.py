@@ -12,7 +12,7 @@ import time
 
 faceCascade = cv2.CascadeClassifier('<whole path>/haarcascade_frontalface_alt.xml')
 
-video_capture = cv2.VideoCapture('http://<user>:<password>@<ip>:<port>/videostream.cgi?user=<user>&pwd=<pwd>&resolution=32&rate=0')
+video_capture = cv2.VideoCapture('http://<url to camera stream>')
 
 count = 0
 while True:
