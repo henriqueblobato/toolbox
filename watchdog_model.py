@@ -3,7 +3,7 @@ Created on 24 de jul de 2017
 
 @author: henrique
 
-Usage: python watchdog_model <path>
+Usage: python watchdog_model.py <path>
 
 
 '''
