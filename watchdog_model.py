@@ -47,8 +47,11 @@ def main(file_path=None):
 
 if __name__ == "__main__":
 #     uncomment for an specific path
-#     main(file_path=os.getcwd()) 
+#     mudar para colocar um path específico
+#     main(file_path = os.getcwd()) 
 
+
+#   colocar argumento no comando do terminal
     if len(sys.argv) > 1:
         path = sys.argv[1]
         main(file_path=path.strip())
