@@ -24,7 +24,7 @@ if not os.path.exists('frames'):
 
 while(True):
     ret, frame = cap.read()
-    if count2 == get_every_n_frames: 
+    if count2 == GET_EVERY_N_FRAMES: 
         if not ret: break
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
         image_name = 'frames/' + str(frame_count) + '.jpg'
